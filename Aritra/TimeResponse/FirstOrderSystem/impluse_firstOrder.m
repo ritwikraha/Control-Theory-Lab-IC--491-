@@ -1,0 +1,18 @@
+clear all;
+close all;
+n=[1];
+d1=[1 1];
+d2=[5 1];
+d3=[10 1];
+G1=tf(n,d1);
+G2=tf(n,d2);
+G3=tf(n,d3);
+subplot(3,1,1);
+impulse(G1);
+xlabel('tou=1');
+subplot(3,1,2);
+impulse(G2);
+xlabel('tou=5');
+subplot(3,1,3);
+impulse(G3);
+xlabel('tou=10');

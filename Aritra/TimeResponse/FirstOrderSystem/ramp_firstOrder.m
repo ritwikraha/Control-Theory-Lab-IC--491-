@@ -1,0 +1,22 @@
+clear all;
+close all;
+n=[1];
+d1=[1 1];
+d2=[5 1];
+d3=[10 1];
+G1=tf(n,d1);
+G2=tf(n,d2);
+G3=tf(n,d3);
+t=0:1:5;
+slope=2;
+ramp=slope*t;
+subplot(3,1,1);
+%lsim is used to take the time response of any signal lsim(sys,y,t)
+lsim(G1,ramp,t);
+xlabel('tou=1');
+subplot(3,1,2);
+lsim(G2,ramp,t);
+xlabel('tou=5');
+subplot(3,1,3);
+lsim(G3,ramp,t);
+xlabel('tou=10');
