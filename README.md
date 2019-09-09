@@ -1,2 +1,2 @@
 # Control-Theory-Lab-IC--491-
-This repository contains all the p-sets for my control theory lab. It deals primarily with time response of standard input signals such as ramp,impulse step and parabola.Frequency response sketches such as root locus, bode and nyquist plot has also been added.
+This repository contains all the p-sets for my control theory lab. It deals primarily with time response of standard input signals such as ramp,impulse step and parabola.Frequency response sketches such as root locus, bode and nyquist plot has also been added. The aim here is to provide a bird's eye view of Control systems and find an essence of it.
